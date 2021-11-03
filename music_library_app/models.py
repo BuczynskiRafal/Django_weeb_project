@@ -2,7 +2,7 @@ from django.db import models
 
 
 class GameCategories(models.Model):
-    game_categories = {
+    CATEGORIES = {
         (0, "Akcji"),
         (1, "RPG"),
         (2, "Sportowe"),
@@ -15,6 +15,7 @@ class GameCategories(models.Model):
         (9, "Przygodowe"),
         (10, "Symulacje"),
     }
+    game_categories = models.PositiveSmallIntegerField(choices=CATEGORIES, default=0)
 
     # def __repr__(self):
     #     attributes = f"Class {__class__.__name__} has attributes {self.__class__.__dict__}"
@@ -23,7 +24,9 @@ class GameCategories(models.Model):
 
 
 class GameMode(models.Model):
-    game_mode = {(0, "Singleplayer"), (1, "Multiplayer")}
+    GAME_MODE = {(0, "Singleplayer"), (1, "Multiplayer")}
+
+    game_mode = models.PositiveSmallIntegerField(choices=GAME_MODE, default=0)
 
     # def __repr__(self):
     #     return f"Class {__class__.__name__} has attributes {self.__class__.__dict__}"

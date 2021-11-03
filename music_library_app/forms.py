@@ -8,22 +8,28 @@ from .models import GameCategories
 class GameForm(ModelForm):
     class Meta:
         model = Game
-        fields = [field for field in model.__dict__.keys() if not field.startswith('__')]
+        fields = ['title', 'description', 'creation_date', 'poster', 'story', 'game_mode', 'category', 'mechanics',
+                  'technical_issues', 'min_hardware_requirements', 'recommended_hardware_requirements']
+
+        # fields = [field for field in model.__dict__.keys() if not field.startswith('_')]
 
 
 class GameModeForm(ModelForm):
     class Meta:
         model = GameMode
-        fields = [field for field in model.__dict__.keys() if not field.startswith('__')]
+        fields = ['game_mode']
+        # fields = [field for field in model.__dict__.keys() if not field.startswith('_')]
 
 
 class GameRatingForm(ModelForm):
     class Meta:
         model = GameRating
-        fields = [field for field in model.__dict__.keys() if not field.startswith('__')]
+        fields = ['users_rating', 'votes', 'expectations_before_the_premiere', 'votes_before_the_premiere']
+        # fields = [field for field in model.__dict__.keys() if not field.startswith('_')]
 
 
 class GameCategoriesForm(ModelForm):
     class Meta:
         model = GameCategories
-        fields = [field for field in model.__dict__.keys() if not field.startswith('__')]
+        fields = ['game_categories']
+        # fields = [field for field in model.__dict__.keys() if not field.startswith('_')]
