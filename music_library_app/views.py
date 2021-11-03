@@ -1,3 +1,6 @@
 from django.shortcuts import render
+from django.http import HttpResponse
 
-# Create your views here.
+
+def response_test(request):
+    return HttpResponse("<h1>It is working</h1>")

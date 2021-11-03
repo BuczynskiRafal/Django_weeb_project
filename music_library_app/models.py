@@ -16,9 +16,17 @@ class GameCategories(models.Model):
         (10, "Symulacje"),
     }
 
+    # def __repr__(self):
+    #     attributes = f"Class {__class__.__name__} has attributes {self.__class__.__dict__}"
+    #     selection = f"Attribute {self.__class__.game_categories} allows you to set categories such as {self.__class__.game_categories.__dict__}"
+    #     return
+
 
 class GameMode(models.Model):
     game_mode = {(0, "Singleplayer"), (1, "Multiplayer")}
+
+    # def __repr__(self):
+    #     return f"Class {__class__.__name__} has attributes {self.__class__.__dict__}"
 
 
 class Game(models.Model):
@@ -47,7 +55,7 @@ class Game(models.Model):
         on_delete=models.CASCADE,
         null=True,
         blank=False,
-        default=GameCategories.game_categories[0],
+        default="Akcji",
     )
     # mechanika
     mechanics = models.TextField(
