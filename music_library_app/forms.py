@@ -8,10 +8,10 @@ from .models import GameCategories
 class GameForm(ModelForm):
     class Meta:
         model = Game
-        fields = ['title', 'description', 'creation_date', 'poster', 'story', 'game_mode', 'category', 'mechanics',
-                  'technical_issues', 'min_hardware_requirements', 'recommended_hardware_requirements']
+        # fields = ['title', 'description', 'creation_date', 'poster', 'story', 'game_mode', 'category', 'mechanics',
+        #           'technical_issues', 'min_hardware_requirements', 'recommended_hardware_requirements']
 
-        # fields = [field for field in model.__dict__.keys() if not field.startswith('_')]
+        fields = [field for field in model.__dict__.keys() if not field.startswith('_')]
 
 
 class GameModeForm(ModelForm):
