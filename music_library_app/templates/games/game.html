@@ -8,10 +8,11 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>Widok z main.html</h1>
-        {% for game in games %}
-            <h1>Obecnie w bazie są gry o nazwach {{ game.title }}</h1>
-        {% endfor %}
-
+    <h1>Widok z game.html</h1>
+    {% for game in games %}
+    <ul>
+        <li>Obecnie w bazie są gry o nazwach {{ game.title }}</li>
+    </ul>
+    {% endfor %}
 </body>
 </html>

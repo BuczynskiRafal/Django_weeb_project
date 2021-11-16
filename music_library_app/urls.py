@@ -1,7 +1,9 @@
 from django.urls import path
-from music_library_app.views import *
+from .views import *
 
 urlpatterns = [
-    path('', response_test, name='response_test'),
     path('all', all_games, name='all_games'),
+    path('game/', game, name='game'),
+    path('game/1/', first_game, name='first_game'),
+    path('', response_test, name='response_test'),
 ]

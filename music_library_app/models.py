@@ -17,10 +17,12 @@ class GameCategories(models.Model):
     }
     game_categories = models.PositiveSmallIntegerField(choices=CATEGORIES, default=0)
 
-    # def __repr__(self):
-    #     attributes = f"Class {__class__.__name__} has attributes {self.__class__.__dict__}"
-    #     selection = f"Attribute {self.__class__.game_categories} allows you to set categories such as {self.__class__.game_categories.__dict__}"
-    #     return
+    def game_category_description(self):
+        game_category = tuple(self.CATEGORIES)[self.game_categories][1]
+        return game_category
+
+    def __str__(self):
+        return f"{self.__class__.__name__} - number {self.game_categories} - {self.game_category_description()}"
 
 
 class GameMode(models.Model):
@@ -28,8 +30,12 @@ class GameMode(models.Model):
 
     game_mode = models.PositiveSmallIntegerField(choices=GAME_MODE, default=0)
 
-    # def __repr__(self):
-    #     return f"Class {__class__.__name__} has attributes {self.__class__.__dict__}"
+    def game_mode_description(self):
+        mode = tuple(self.GAME_MODE)[self.game_mode][1]
+        return mode
+
+    def __str__(self):
+        return f"{self.__class__.__name__} - {self.game_mode_description()}"
 
 
 class Game(models.Model):
@@ -78,6 +84,9 @@ class Game(models.Model):
         default="Intel Core i5-8600K 3.6 GHz 16 GB RAM karta grafiki 4 GB GeForce GTX 970 lub lepsza 50 GB HDD Windows 10 64-bit.",
     )
 
+    def __str__(self):
+        return f"Game {self.title}"
+
     def __repr__(self):
         return f"Class {__class__.__name__} has attributes {self.__class__.__dict__}"
 
@@ -94,6 +103,9 @@ class GameRating(models.Model):
             f"Oczekiwania czytelników przed premierą: {self.expectations_before_the_premiere} / 10 na podstawie {self.votes_before_the_premiere} głosów czytelników."
         )
         return summary
+
+    def __str__(self):
+        return self.__class__.__name__
 
     def __repr__(self):
         return f"Class {__class__.__name__} has attributes {self.__class__.__dict__}"
