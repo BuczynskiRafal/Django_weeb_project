@@ -83,6 +83,7 @@ class Game(models.Model):
         unique=False,
         default="Intel Core i5-8600K 3.6 GHz 16 GB RAM karta grafiki 4 GB GeForce GTX 970 lub lepsza 50 GB HDD Windows 10 64-bit.",
     )
+    sponsored = models.BooleanField(default=False)
 
     def __str__(self):
         return f"Game {self.title}"

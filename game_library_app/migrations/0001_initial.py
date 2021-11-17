@@ -47,8 +47,8 @@ class Migration(migrations.Migration):
                 ('technical_issues', models.TextField(blank=True, default='sample_text')),
                 ('min_hardware_requirements', models.TextField(blank=True, default='Intel Core i5-6300U 2.4 GHz 8 GB RAM karta grafiki Intel HD 520 lub lepsza 50 GB HDD Windows 10 64-bit.')),
                 ('recommended_hardware_requirements', models.TextField(blank=True, default='Intel Core i5-8600K 3.6 GHz 16 GB RAM karta grafiki 4 GB GeForce GTX 970 lub lepsza 50 GB HDD Windows 10 64-bit.')),
-                ('category', models.OneToOneField(default='Akcji', null=True, on_delete=django.db.models.deletion.CASCADE, to='music_library_app.gamecategories')),
-                ('game_mode', models.OneToOneField(default='Singleplayer', null=True, on_delete=django.db.models.deletion.CASCADE, to='music_library_app.gamemode')),
+                ('category', models.OneToOneField(default='Akcji', null=True, on_delete=django.db.models.deletion.CASCADE, to='game_library_app.gamecategories')),
+                ('game_mode', models.OneToOneField(default='Singleplayer', null=True, on_delete=django.db.models.deletion.CASCADE, to='game_library_app.gamemode')),
             ],
         ),
     ]
