@@ -1,0 +1,16 @@
+[
+{
+  "model": "game_library_app.gamecategories",
+  "pk": 1,
+  "fields": {
+    "game_categories": 0
+  }
+},
+{
+  "model": "game_library_app.gamecategories",
+  "pk": 2,
+  "fields": {
+    "game_categories": 0
+  }
+}
+]

@@ -1,0 +1,38 @@
+[
+{
+  "model": "game_library_app.game",
+  "pk": 1,
+  "fields": {
+    "title": "Grand Theft Auto The Trilogy - The Definitive Edition",
+    "description": "Grand Theft Auto: The Trilogy – The Definitive Edition to kompilacja trzech kultowych gier studia Rockstar Games – Grand Theft Auto III, Grand Theft Auto: Vice City i Grand Theft Auto: San Andreas. Tytu³y te, oryginalnie wydane na szóst¹ generacjê konsol, zrewolucjonizowa³y seriê i odnios³y niewyobra¿alny sukces. Ich kompilacjê wydano z okazji dwudziestej rocznicy premiery GTA III.",
+    "creation_date": "2021-11-11",
+    "poster": "",
+    "story": "Wszystkie gry zawarte w trylogii maj¹ miejsce w tym samym uniwersum, tak zwanym Uniwersum 3D, niezale¿nym od tytu³ów z Uniwersum HD (GTA IV, GTA V, GTA Online). W ka¿dej z gier wcielamy siê w aspiruj¹cego kryminalistê, pn¹cego siê po szczeblach przestêpczego pó³œwiatka.\r\nAkcja GTA 3 ma miejsce w 2001 roku i stawia gracza w roli Claude’a, rabusia szukaj¹cego zemsty na by³ej dziewczynie, która zostawi³a go na œmieræ podczas napadu. Vice City rozgrywa siê w 1986 roku, a jego g³ównym bohaterem jest Tommy Vercetti, gangster na us³ugach mafii poszukuj¹cy pieniêdzy skradzionych podczas handlu narkotykami. Wydarzenia w San Andreas odbywaj¹ siê w 1992 roku – wcielamy siê podczas nich w Carla Johnsona, chc¹cego ukróciæ rozprowadzanie narkotyków w swoim rodzinnym mieœcie. Fabu³y tytu³ów nie s¹ ze sob¹ bezpoœrednio powi¹zane, lecz czasami mo¿emy w nich spotkaæ bohaterów znanych z pozosta³ych gier trylogii.",
+    "game_mode": 1,
+    "category": 1,
+    "mechanics": "GTA Trilogy Definitive Edition to kompilacja trzecioosobowych sandboxów, podczas których wykonujemy misje fabularne i poboczne, zarabiamy coraz wiêcej pieniêdzy i szukamy znajdziek. Miasta dostêpne dla gracza – Liberty City w GTA 3, tytu³owe Vice City w GTA Vice City oraz Los Santos, San Fierro i Las Venturas w GTA San Andreas – s¹ rozleg³e, pe³ne niespodzianek i oferuj¹ du¿o wolnoœci oraz efektownych strzelanin. Po œwiecie gry przemieszczamy siê za pomoc¹ wielu dostêpnych pojazdów, najczêœciej skradzionych z ulicy. Oprócz misji fabularnych gry oferuj¹ wiele wyzwañ nagradzanych przydatnymi przedmiotami lub umiejêtnoœciami pasywnymi. Przyk³adowo, misje stra¿aka polegaj¹ na gaszeniu po¿arów i w zale¿noœci od ods³ony nagradzaj¹ gracza miotaczem ognia lub ca³kowit¹ odpornoœci¹ na ogieñ. Misje paramedyka polegaj¹ na dowo¿eniu rannych pacjentów do szpitala i nagradzane s¹ zwiêkszonym zdrowiem lub nieskoñczonym sprintem.",
+    "technical_issues": "A: The Trilogy – The Definitive Edition zosta³o odœwie¿one i dostosowane do mo¿liwoœci konsol ósmej i dziewi¹tej generacji.",
+    "min_hardware_requirements": "Intel Core i5-6300U 2.4 GHz 8 GB RAM karta grafiki Intel HD 520 lub lepsza 50 GB HDD Windows 10 64-bit.",
+    "recommended_hardware_requirements": "Intel Core i5-8600K 3.6 GHz 16 GB RAM karta grafiki 4 GB GeForce GTX 970 lub lepsza 50 GB HDD Windows 10 64-bit.",
+    "sponsored": false
+  }
+},
+{
+  "model": "game_library_app.game",
+  "pk": 2,
+  "fields": {
+    "title": "Far Cry 6",
+    "description": "Far Cry 6 to szósta g³ówna ods³ona zapocz¹tkowanego w 2004 roku bestsellerowego cyklu FPS-ów. Produkcja powstawa³a jednoczeœnie w kilku oddzia³ach firmy Ubisoft, pod kierownictwem Ubisoft Toronto. To studio wczeœniej pomaga³o przy produkcji gier Far Cry 4 i Far Cry Primal.",
+    "creation_date": "2021-10-07",
+    "poster": "posters/FC6.jpg",
+    "story": "Far Cry 6 zabiera nas w podró¿ do Yary – fikcyjnego tropikalnego pañstwa inspirowanego Kub¹. Rz¹dy twardej rêki sprawuje tu Anton Castillo, którego ¿yciowym celem jest odbudowa kraju i przywrócenie mu œwietnoœci sprzed piêædziesiêciu lat (kiedy to dyktatorem by³ jego ojciec), niezale¿nie od tego, do jakich poœwiêceñ bêdzie musia³ w tym celu zmusiæ obywateli. Poza tym Castillo wychowuje swego nastêpcê, czyli 13-letniego syna imieniem Diego. Postaci¹, w któr¹ wcielamy siê podczas zabawy, jest natomiast Dani Rojas, czyli bojownik lub bojowniczka miejscowego ruchu oporu, próbuj¹cego odsun¹æ Castillo od w³adzy poprzez zarówno wojnê partyzanck¹, jak i protesty na ulicach stolicy Yary – Esperanzy",
+    "game_mode": 2,
+    "category": 2,
+    "mechanics": "Rozgrywkê w Far Cry 6 rozpoczynamy od wyboru p³ci postaci, w któr¹ siê wcielamy. Akcjê obserwujemy z perspektywy pierwszej osoby (FPP). Autorzy oddaj¹ nam do dyspozycji rozleg³y otwarty œwiat, który przemierzamy na piechotê, za sterami rozmaitych pojazdów i innych maszyn czy na grzbiecie konia. Znajdziemy w nim nie tylko znane z wczeœniejszych czêœci serii dziewicze tereny (na czele z d¿ungl¹) i niewielkie osady, lecz tak¿e (po raz pierwszy w historii cyklu) potê¿n¹ metropoliê, czyli Esperanzê. Motorem gry s¹ zadania popychaj¹ce fabu³ê do przodu, a towarzysz¹ im liczne misje i inne aktywnoœci opcjonalne. W ich realizacji przeszkadzaj¹ nam zazwyczaj ¿o³nierze wierni Castillo, których eliminujemy, robi¹c u¿ytek z rozbudowanego arsena³u. Oprócz broni bia³ej na naszym podorêdziu znajduje siê szeroki wachlarz pistoletów, strzelb i karabinów, które partyzanci modyfikuj¹ przy pomocy przedmiotów codziennego u¿ytku (na przyk³ad instaluj¹c celowniki zrobione z puszek po sardynkach). Z nieprzyjació³mi mo¿emy sobie radziæ zarówno w otwartej walce, jak i dzia³aj¹c po cichu, co jest o tyle wa¿ne, ¿e czêsto maj¹ oni nad nami przewagê liczebn¹ oraz technologiczn¹ (doœæ powiedzieæ, ¿e dysponuj¹ miêdzy innymi czo³gami). Podobnie jak mia³o to miejsce miêdzy innymi w Far Cry 5, nie jesteœmy skazani na samotn¹ przeprawê. Mo¿emy bowiem skorzystaæ z pomocy tzw. Amigos, czyli oswojonych zwierz¹t pokroju jamnika Chorizo.",
+    "technical_issues": "Seria Far Cry przyzwyczai³a nas do tego, ¿e reprezentuj¹ce j¹ produkcje posiadaj¹ oprawê graficzn¹ wysokiej jakoœci. Far Cry 6 nie jest tu wyj¹tkiem – podobaæ siê mog¹ zarówno pe³ne detali otoczenie, na czele z bujn¹ roœlinnoœci¹ porastaj¹c¹ Yarê, jak i realistycznie odwzorowana broñ czy szczegó³owe modele postaci. Ponadto gra mo¿e siê pochwaliæ iœcie gwiazdorsk¹ obsad¹ – w rolê Antona Castillo wcieli³ siê Giancarlo Esposito znany z serialu Breaking Bad, natomiast twarzy i g³osu Diego u¿yczy³ Anthony Gonzalez (Coco).",
+    "min_hardware_requirements": "(30 fps / 1080p) Intel Core i5-4460 3.2 GHz / AMD Ryzen 3 1200 3.1 GHz 8 GB RAM karta grafiki 4 GB GeForce GTX 960 / Radeon RX 460 lub lepsza 60 GB HDD Windows 10 64-bit",
+    "recommended_hardware_requirements": "(60 fps / 1080p) Intel Core i7-7700 3.6 GHz / AMD Ryzen 5 3600X 3.8 GHz 16 GB RAM karta grafiki 8 GB GeForce GTX 1080 / Radeon RX Vega 64 lub lepsza 60 GB SSD Windows 10 64-bit",
+    "sponsored": true
+  }
+}
+]

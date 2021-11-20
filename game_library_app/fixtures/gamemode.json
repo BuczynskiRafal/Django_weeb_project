@@ -1,0 +1,16 @@
+[
+{
+  "model": "game_library_app.gamemode",
+  "pk": 1,
+  "fields": {
+    "game_mode": 0
+  }
+},
+{
+  "model": "game_library_app.gamemode",
+  "pk": 2,
+  "fields": {
+    "game_mode": 0
+  }
+}
+]
